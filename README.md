@@ -2,6 +2,32 @@
 
 A cloud-deployed machine learning application that predicts whether an OTT streaming customer is likely to churn based on subscription, engagement, and customer-support behavior.
 
+## Dataset
+
+The dataset used in this project was sourced from Kaggle.
+
+**Source:** [Churn Modelling for OTT Platforms](https://www.kaggle.com/datasets/santhoshvr97/ott-chrun-modeling-ott)
+
+To reproduce this notebook:
+
+1. Download the dataset from Kaggle.
+2. Create a folder named `data`.
+3. Place `churn_1.csv` inside the `data` folder.
+
+Expected structure:
+
+```text
+ott-churn-prediction/
+├── data/
+│   └── churn_1.csv
+├── OTT_Churn_Prediction.ipynb
+├── app.py
+├── churn_model.joblib
+├── requirements.txt
+└── README.md
+
+```
+
 ## Live Demo
 
 **Streamlit App:** https://ott-churn-prediction-yb.streamlit.app
@@ -172,5 +198,3 @@ Potential extensions include:
 ## Author
 
 **Yatharth Bahl**
-
-Machine Learning / Data Science Portfolio Project
